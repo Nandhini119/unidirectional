@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CartoonsDirectory from './components/CartoonsDirectory';
+import './index.css';
+import App from './App';
 
-ReactDOM.render(<CartoonsDirectory />, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
